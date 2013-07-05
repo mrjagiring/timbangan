@@ -1,0 +1,77 @@
+/* 
+    Document   : font
+    Created on : Dec 6, 2012, 4:01:17 PM
+    Author     : victor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+    Document   : font.css
+    Created on : Sep 6, 2012, 2:49:58 PM
+    Author     : Victor Siahaan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+@font-face {
+    font-family: "PoiretOne";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/PoiretOne-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "QuicksandLight";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/Quicksand_Light-webfont.woff") format("woff"), url("../font/Quicksand_Light-webfont.ttf") format("truetype"), url("../font/Quicksand_Light-webfont.svg#webfontV68v3pTW") format("svg");
+}
+@font-face {
+    font-family: "QuicksandBook";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/Quicksand_Book-webfont.woff") format("woff"), url("../font/Quicksand_Book-webfont.ttf") format("truetype"), url("../font/Quicksand_Book-webfont.svg#webfontbGBYWcVr") format("svg");
+}
+@font-face {
+    font-family: "QuicksandBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/Quicksand_Bold-webfont.woff") format("woff"), url("../font/Quicksand_Bold-webfont.ttf") format("truetype"), url("../font/Quicksand_Bold-webfont.svg#webfontV68v3pTW") format("svg");
+}
+@font-face {
+    font-family: "QuicksandDash";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/Quicksand_Dash-webfont.woff") format("woff"), url("../font/Quicksand_Dash-webfont.ttf") format("truetype"), url("../font/Quicksand_Dash-webfont.svg#webfontV68v3pTW") format("svg");
+}
+@font-face {
+    font-family: "TerminalDosis-Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/TerminalDosis-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Coustard';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Coustard-Black'), url(../fonts/Coustard.woff) format('woff');
+}
+@font-face {
+  font-family: 'Sans-Narrow';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Sans-Narrow'), url(../fonts/Sans-Narrow.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Rochester';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rochester-Regular'), url(../fonts/Rochester-Regular.woff) format('woff');
+}
+

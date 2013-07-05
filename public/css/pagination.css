@@ -1,0 +1,41 @@
+/* 
+    Document   : pagination
+    Created on : Dec 6, 2012, 11:45:56 PM
+    Author     : victor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.pagination {
+	margin: 20px 0;	
+}
+
+.pagination a {
+	padding: 1px 7px 1px 7px;
+	border: 1px solid #d6c896;
+	text-decoration: none;
+	color: #993909;
+        background-color: #efe9d1;
+}
+
+.pagination a:hover
+{
+	border: 1px solid #d6c896;
+	text-decoration: none;
+	background: darkorange;
+}
+.pagination a:active {
+        border: 1px solid #d6c896;
+	text-decoration: none;
+	background: burlywood;
+        
+}   
+.pagination strong {
+	border: 1px solid darksalmon;
+	background-color: darkorange;
+	padding: 1px 7px 1px 7px;
+	margin-left: 5px;
+	font-weight: normal;
+	line-height: 2em;
+	color: #fff;
+}

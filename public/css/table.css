@@ -1,0 +1,51 @@
+/* 
+    Document   : table
+    Created on : Dec 6, 2012, 3:48:53 PM
+    Author     : victor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+    color: #333;
+}
+
+.bordered {
+    width:100%;
+    border-collapse:collapse;
+    background: #fff;
+    border-bottom: 4px #444 solid;
+    border-left: 1px #444 solid;
+    border-right: 1px #444 solid;
+}
+.bordered td
+{
+font-size:1em;
+border:1px solid #eee;
+padding:3px 7px 2px 7px;
+}
+.bordered th 
+{
+font-size:1.1em;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#444;
+color:#fff;
+}
+.bordered tr.alt td 
+{
+color:#000000;
+background-color:#ddd;
+}
+.bordered tr:hover {
+    background: #ddd;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border: 0;
+}   

@@ -1,0 +1,23 @@
+/* 
+    Document   : styles
+    Created on : Dec 6, 2012, 2:33:08 PM
+    Author     : victor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url("main.css");
+
+@import url("font-awesome.css");
+
+@import url("login.css");
+
+@import url("font.css");
+
+@import url("table.css");
+
+@import url("pagination.css");
+
+@import url("button.css");
+
+@import url("../themes/ui-lightness/jquery.ui.all.css");
